@@ -1,8 +1,8 @@
 library(ggplot2) # sets a specific library on
 
 getwd() # checks your folder path
-#setwd("/Users/cleofetrax/Desktop/Dev/DataViz/CA1/Excel Files") # my project folder path
-setwd("C:/Users/N00152091/Desktop/DataViz/DataViz/CA1/Excel Files") # college computer folder path
+setwd("/Users/cleofetrax/Desktop/Dev/DataViz/CA1/Excel Files") # my project folder path
+#setwd("C:/Users/N00152091/Desktop/DataViz/DataViz/CA1/Excel Files") # college computer folder path
 
 q3 <- read.csv(file="q3.csv", header= TRUE, sep = ",") # imports the dataset from your folder path
 
